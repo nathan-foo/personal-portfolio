@@ -2,3 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "CutiePatootie";
+    src: url("../fonts/CutiePatootie-Rgjv.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "CutiePatootieHollow";
+    src: url("../fonts/CutiePatootieHollow-BpZG.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "CutiePatootieSkinny";
+    src: url("../fonts//CutiePatootieSkinny-8zXZ.ttf") format('truetype');
+}
