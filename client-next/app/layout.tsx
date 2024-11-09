@@ -15,14 +15,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <SmoothScroll>
-      <html lang="en">
+    <html lang="en">
+      <SmoothScroll>
         <body>
           <Navbar />
           <Links />
           {children}
         </body>
-      </html>
-    </SmoothScroll>
+      </SmoothScroll>
+    </html>
   );
 }

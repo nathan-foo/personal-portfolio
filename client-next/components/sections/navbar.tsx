@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <div className="font-[CutiePatootie] text-[1.3rem] flex items-center justify-between top-0 left-0 w-[100%] fixed py-6 px-12">
+        <div className="font-[CutiePatootie] absolute text-[1.3rem] flex items-center justify-between top-0 left-0 w-[100%] py-6 px-12">
             <Link href="/">nathan foo</Link>
 
             <div className="navbar">
